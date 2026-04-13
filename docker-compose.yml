@@ -1,0 +1,8 @@
+services:
+  traffic_crash_engine:
+    build: .
+    container_name: traffic_crash_engine
+    volumes:
+      - .:/app
+    working_dir: /app
+    tty: true
